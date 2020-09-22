@@ -1,0 +1,14 @@
+{
+  "name": "my-special-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "serverless invoke local --function hello -p event.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "puppeteer": "^5.3.0"
+  }
+}
